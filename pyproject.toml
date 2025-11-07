@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel", "cython", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xtcocotools"
+version = "1.14.3"
+description = "Extended COCO API"
+readme = "README.md"
+requires-python = ">=3.13"
+license = "MIT"
+urls = {homepage = "https://github.com/jin-s13/xtcocoapi"}
+
+dependencies = [
+    "matplotlib",
+    "numpy"
+]
+
+[project.optional-dependencies]
+dev = [
+    "importlib"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["annotations", "common", "demos"]
