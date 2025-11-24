@@ -7,7 +7,7 @@ name = "xtcocotools"
 version = "1.14.3"
 description = "Extended COCO API"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.8"
 license = "MIT"
 urls = {homepage = "https://github.com/jin-s13/xtcocoapi"}
 
